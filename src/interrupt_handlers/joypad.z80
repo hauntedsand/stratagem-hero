@@ -1,0 +1,18 @@
+;
+; interrupt_handlers/joypad.z80
+
+interrupt_joypad::
+
+; save registers
+    push af
+    push bc
+    push de
+    push hl
+
+; restore registers
+    pop  hl
+    pop  de
+    pop  bc
+    pop  af
+
+    reti

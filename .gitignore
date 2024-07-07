@@ -1,0 +1,17 @@
+#
+# .gitignore
+
+bin/**
+!bin/.gitkeep
+
+obj/**
+!obj/.gitkeep
+
+# Local build of rgbds
+rgbds/**
+
+# Local files to keep out of tree
+backup/**
+
+# macOS
+.DS_Store

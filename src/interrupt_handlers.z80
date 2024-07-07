@@ -1,0 +1,7 @@
+;
+; interrupt_handlers.z80
+
+SECTION "Interrupt Handlers", ROM0
+
+INCLUDE "interrupt_handlers/vblank.z80"
+INCLUDE "interrupt_handlers/joypad.z80"

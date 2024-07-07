@@ -1,0 +1,10 @@
+;
+; game/meta.z80
+
+INCLUDE "game/types.z80"
+
+SECTION "GameBoy Metadata", WRAM0
+
+; Populated with metadata about the hardware
+    DS GameBoyMeta_SIZE - 1
+       GameBoyMeta:: DB

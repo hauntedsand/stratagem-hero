@@ -1,0 +1,96 @@
+;
+; layout.link
+
+; RST jump vectors
+
+ROM0
+
+    ORG $0000
+        "rst0"
+    
+    ORG $0008
+        "rst8"
+    
+    ORG $0010
+        "rst10"
+    
+    ORG $0018
+        "rst18"
+    
+    ORG $0020
+        "rst20"
+    
+    ORG $0028
+        "rst28"
+    
+    ORG $0030
+        "rst30"
+    
+    ORG $0038
+        "rst38"
+
+; Interrupt handler jump vectors
+
+ROM0
+
+    ORG $0040
+        "interrupt40"
+    
+    ORG $0048
+        "interrupt48"
+    
+    ORG $0050
+        "interrupt50"
+    
+    ORG $0058
+        "interrupt58"
+
+    ORG $0060
+        "interrupt60"
+
+; Application
+
+ROM0
+
+    ; I need to do something about the base address of sections that aren't
+    ; defined here so they can float after $0150
+
+    ORG $0150
+        "Init"
+        "Interrupt Handlers"
+        "GameBoy Metadata Subroutines"
+        "Memory Subroutines"
+        "LCD Subroutines"
+        "OAM DMA Subroutine Prototype"
+        "OAM Shadow Driver"
+        "Tilemap Subroutines"
+        "Palette Subroutines"
+        "Tileset Subroutines"
+        "Attrmap Subroutines"
+        "GBG Loader Subroutines"
+        "Game State Methods"
+
+ROMX $1
+
+    FLOATING
+        "assets/backgrounds/stratagem_hero"
+
+WRAM0
+
+    ; The OAM shadow must be aligned on a $XX00 boundary as DMA transfers can
+    ; only originate from addresses aligned to this boundary.
+
+    ORG $C100
+        "OAM Shadow"
+
+    FLOATING
+        "GameBoy Metadata"
+        "Game State"
+
+    ORG $DF00
+        "Stack"
+
+HRAM
+
+    FLOATING
+        "OAM DMA Subroutine"
