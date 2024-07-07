@@ -1,7 +1,7 @@
 ;
-; game/meta.z80
+; game/meta.asm
 
-INCLUDE "game/types.z80"
+INCLUDE "game/types.asm"
 
 SECTION "GameBoy Metadata", WRAM0
 

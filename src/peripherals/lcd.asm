@@ -1,7 +1,7 @@
 ;
-; peripherals/lcd.z80
+; peripherals/lcd.asm
 
-INCLUDE "gameboy/constants.z80"
+INCLUDE "gameboy/constants.asm"
 
 SECTION "LCD Subroutines", ROM0
 

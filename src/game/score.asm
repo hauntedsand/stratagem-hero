@@ -1,5 +1,5 @@
 ;
-; score.z80
+; score.asm
 ;
 
 ;

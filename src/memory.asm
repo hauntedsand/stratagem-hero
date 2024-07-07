@@ -1,9 +1,9 @@
 ;
-; memory.z80
+; memory.asm
 ;
 ; Common subroutines for manipulating memory.
 
-INCLUDE "std/memory.z80"
+INCLUDE "std/memory.asm"
 
 SECTION "Memory Subroutines", ROM0
 

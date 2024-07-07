@@ -1,8 +1,8 @@
 ;
-; vector.z80
+; vector.asm
 ;
 
-INCLUDE "gameboy/pseudoinstructions.z80"
+INCLUDE "gameboy/pseudoinstructions.asm"
 
 SECTION "Vector Subroutines", ROM0
 

@@ -44,6 +44,6 @@ $(ROM): $(OBJS)
 	./rgbds/rgblink -o $@ -w -l layout.link -m $(BINDIR)/layout.map $^
 	./rgbds/rgbfix -vC $@
 
-$(OBJS): $(OBJDIR)/%.o: $(SRCDIR)/%.z80
+$(OBJS): $(OBJDIR)/%.o: $(SRCDIR)/%.asm
 	@mkdir -p $(dir $@)
-	./rgbds/rgbasm -P includes.z80 -I $(INCDIR) -I $(SRCDIR) -o $@ $<
+	./rgbds/rgbasm -P includes.asm -I $(INCDIR) -I $(SRCDIR) -o $@ $<

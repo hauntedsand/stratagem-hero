@@ -1,5 +1,5 @@
 ;
-; cartridge.z80
+; cartridge.asm
 
 SECTION "Nintendo Logo",     ROM0[$0104]
 

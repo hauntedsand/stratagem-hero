@@ -1,5 +1,5 @@
 ;
-; rst.z80
+; rst.asm
 ;
 ; Game Boy ROM0 contains 8 RST instruction jump vectors. RST is a more
 ; efficient alternative to CALL. These jump vectors are convention, and

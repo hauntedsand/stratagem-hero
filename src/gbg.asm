@@ -1,5 +1,5 @@
 ;
-; gbg.z80
+; gbg.asm
 ;
 
 SECTION "GBG Loader Subroutines", ROM0

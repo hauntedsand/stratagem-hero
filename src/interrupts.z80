@@ -1,5 +1,0 @@
-;
-; interrupts.z80
-
-INCLUDE "interrupt_handlers/jump_table.z80"
-INCLUDE "interrupt_handlers.z80"

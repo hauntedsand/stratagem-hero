@@ -1,11 +1,11 @@
 ;
-; game/game.z80
+; game/game.asm
 ;
 ; Game state is managed by a singleton structure in WRAM accessed via methods.
 
-INCLUDE "gameboy/constants.z80"
-INCLUDE "gameboy/pseudoinstructions.z80"
-INCLUDE "game/types.z80"
+INCLUDE "gameboy/constants.asm"
+INCLUDE "gameboy/pseudoinstructions.asm"
+INCLUDE "game/types.asm"
 
 MACRO DEREF_BYTE
     ld   de,  \1

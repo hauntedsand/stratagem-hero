@@ -1,5 +1,5 @@
 ;
-; oam.z80
+; oam.asm
 ;
 
 IF ! DEF(INCLUDE_OAM)

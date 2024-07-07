@@ -1,16 +1,16 @@
 ;
-; init.z80
+; init.asm
 ;
 
-INCLUDE "gameboy/constants.z80"
-INCLUDE "std/memory.z80"
-INCLUDE "game/types.z80"
+INCLUDE "gameboy/constants.asm"
+INCLUDE "std/memory.asm"
+INCLUDE "game/types.asm"
 
-INCLUDE "rst.z80"
-INCLUDE "interrupts.z80"
-INCLUDE "cartridge.z80"
-INCLUDE "entry.z80"
-INCLUDE "oam.z80"
+INCLUDE "rst.asm"
+INCLUDE "interrupts.asm"
+INCLUDE "cartridge.asm"
+INCLUDE "entry.asm"
+INCLUDE "oam.asm"
 
 SECTION "Init", ROM0
 
@@ -160,4 +160,4 @@ reset_monochrome_palettes:
 
     ret
 
-INCLUDE "tile_data.z80"
+INCLUDE "tile_data.asm"

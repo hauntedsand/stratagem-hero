@@ -1,5 +1,5 @@
 ;
-; stack.z80
+; stack.asm
 
 SECTION "Stack", WRAM0
 

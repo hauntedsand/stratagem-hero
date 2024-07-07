@@ -1,7 +1,7 @@
 ;
-; std/memory.z80
+; std/memory.asm
 
-INCLUDE "gameboy/pseudoinstructions.z80"
+INCLUDE "gameboy/pseudoinstructions.asm"
 
 IF ! DEF(INCLUDE_STD_MEMORY)
 DEF      INCLUDE_STD_MEMORY EQU 1

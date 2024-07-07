@@ -1,7 +1,7 @@
 ;
-; gameboy/oam_dma.z80
+; gameboy/oam_dma.asm
 
-INCLUDE "gameboy/constants.z80"
+INCLUDE "gameboy/constants.asm"
 
 SECTION "OAM DMA Subroutine Prototype", ROM0
 

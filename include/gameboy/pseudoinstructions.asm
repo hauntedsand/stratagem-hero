@@ -1,8 +1,8 @@
 ;
-; gameboy/pseudoinstructions.z80
+; gameboy/pseudoinstructions.asm
 ;
 
-INCLUDE "gameboy/constants.z80"
+INCLUDE "gameboy/constants.asm"
 
 ; For now just hardcoded the MBC in use
 DEF MBC_MBC5 EQU 1

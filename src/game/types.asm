@@ -1,5 +1,5 @@
 ;
-; game/types.z80
+; game/types.asm
 
 IF ! DEF(INCLUDE_GAME_TYPES)
 DEF      INCLUDE_GAME_TYPES EQU 1

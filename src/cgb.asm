@@ -1,8 +1,8 @@
 ;
-; cgb.z80
+; cgb.asm
 ;
 
-INCLUDE "game/types.z80"
+INCLUDE "game/types.asm"
 
 SECTION "GameBoy Metadata Subroutines", ROM0
 

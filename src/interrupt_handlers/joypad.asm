@@ -1,5 +1,5 @@
 ;
-; interrupt_handlers/joypad.z80
+; interrupt_handlers/joypad.asm
 
 interrupt_joypad::
 

@@ -1,5 +1,5 @@
 ;
-; interrupt_handlers/vblank.z80
+; interrupt_handlers/vblank.asm
 
 interrupt_vblank::
 

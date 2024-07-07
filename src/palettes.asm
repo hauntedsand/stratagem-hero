@@ -1,9 +1,9 @@
 ;
-; palettes.z80
+; palettes.asm
 ;
 
-INCLUDE "gameboy/constants.z80"
-INCLUDE "gameboy/pseudoinstructions.z80"
+INCLUDE "gameboy/constants.asm"
+INCLUDE "gameboy/pseudoinstructions.asm"
 
 SECTION "Palette Subroutines", ROM0
 

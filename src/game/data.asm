@@ -1,7 +1,7 @@
 ;
-; game/data.z80
+; game/data.asm
 
-INCLUDE "game/types.z80"
+INCLUDE "game/types.asm"
 
 SECTION "Game State", WRAM0
 

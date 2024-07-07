@@ -1,5 +1,5 @@
 ;
-; interrupt_handlers/jump_table.z80
+; interrupt_handlers/jump_table.asm
 ;
 ; Game Boy ROM0 contains 5 interrupt handler jump vectors.
 ;

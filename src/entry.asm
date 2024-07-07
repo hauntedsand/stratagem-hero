@@ -1,5 +1,5 @@
 ;
-; entry.z80
+; entry.asm
 
 SECTION "Entry Point", ROM0[$0100]
 
